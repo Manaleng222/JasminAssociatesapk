@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Roles -->
+    <string-array name="roles_array">
+        <item>Admin</item>
+        <item>Project Manager</item>
+        <item>Security Personnel</item>
+    </string-array>
+
+    <!-- Project Types -->
+    <string-array name="project_types_array">
+        <item>Construction</item>
+        <item>Renovation</item>
+        <item>Maintenance</item>
+        <item>Security</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- Equipment Types -->
+    <string-array name="equipment_types_array">
+        <item>Vehicle</item>
+        <item>Tool</item>
+        <item>Machine</item>
+        <item>Safety Equipment</item>
+        <item>Electronic</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- Status Options -->
+    <string-array name="status_options_array">
+        <item>Active</item>
+        <item>Inactive</item>
+        <item>Pending</item>
+        <item>Completed</item>
+        <item>Cancelled</item>
+        <item>On Hold</item>
+    </string-array>
+
+    <!-- Equipment Status -->
+    <string-array name="equipment_status_array">
+        <item>Available</item>
+        <item>In Use</item>
+        <item>Under Maintenance</item>
+        <item>Needs Repair</item>
+        <item>Retired</item>
+    </string-array>
+
+    <!-- Shift Status -->
+    <string-array name="shift_status_array">
+        <item>Scheduled</item>
+        <item>In Progress</item>
+        <item>Completed</item>
+        <item>Cancelled</item>
+    </string-array>
+
+    <!-- Filter Options -->
+    <string-array name="filter_status_array">
+        <item>All</item>
+        <item>Active</item>
+        <item>Completed</item>
+        <item>On Hold</item>
+    </string-array>
+
+    <!-- Time Intervals -->
+    <string-array name="time_intervals_array">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>4 hours</item>
+        <item>8 hours</item>
+    </string-array>
+
+    <!-- Maintenance Intervals -->
+    <string-array name="maintenance_intervals_array">
+        <item>7 days</item>
+        <item>15 days</item>
+        <item>30 days</item>
+        <item>60 days</item>
+        <item>90 days</item>
+        <item>180 days</item>
+        <item>365 days</item>
+    </string-array>
+</resources>

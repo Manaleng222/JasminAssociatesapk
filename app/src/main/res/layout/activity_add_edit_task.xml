@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.projectmanager.AddEditTaskActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Dashboard Button -->
+        <Button
+            android:id="@+id/btnDashboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dashboard"
+            android:backgroundTint="#6c757d"
+            android:textColor="@android:color/white" />
+
+        <!-- Header -->
+        <TextView
+            android:id="@+id/tvPageTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/page_title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="15dp" />
+
+        <!-- Task Form -->
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <!-- Task Name -->
+            <TableRow android:layout_marginBottom="15dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Task Name *"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/etTaskName"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="Enter task name" />
+            </TableRow>
+
+            <!-- Description -->
+            <TableRow android:layout_marginBottom="15dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Description"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/etDescription"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="Enter task description"
+                    android:minHeight="80dp"
+                    android:gravity="top"
+                    android:inputType="textMultiLine" />
+            </TableRow>
+
+            <!-- Assigned To -->
+            <TableRow android:layout_marginBottom="15dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Assigned To"
+                    android:textStyle="bold" />
+                <Spinner
+                    android:id="@+id/spTeamMembers"
+                    android:layout_width="0dp"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <!-- Start Date -->
+            <TableRow android:layout_marginBottom="15dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Start Date"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/etStartDate"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="Select start date"
+                    android:focusable="false" />
+            </TableRow>
+
+            <!-- Due Date -->
+            <TableRow android:layout_marginBottom="15dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Due Date *"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/etDueDate"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="Select due date"
+                    android:focusable="false" />
+            </TableRow>
+
+            <!-- Priority -->
+            <TableRow android:layout_marginBottom="15dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Priority"
+                    android:textStyle="bold" />
+                <Spinner
+                    android:id="@+id/spPriority"
+                    android:layout_width="0dp"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <!-- Estimated Hours -->
+            <TableRow android:layout_marginBottom="15dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Estimated Hours"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/etEstimatedHours"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="0.0"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+        </TableLayout>
+
+        <!-- Action Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <Button
+                android:id="@+id/btnSaveTask"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Save Task"
+                android:backgroundTint="#007ACC"
+                android:textColor="@android:color/white"
+                android:layout_marginEnd="5dp" />
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cancel"
+                android:backgroundTint="#6c757d"
+                android:textColor="@android:color/white"
+                android:layout_marginStart="5dp" />
+
+        </LinearLayout>
+
+        <!-- Validation Message -->
+        <TextView
+            android:id="@+id/tvValidationMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_red_dark"
+            android:gravity="center"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</ScrollView>

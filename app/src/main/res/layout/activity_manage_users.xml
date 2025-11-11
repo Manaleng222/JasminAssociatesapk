@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".ui.admin.ManageUsersActivity">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/menuButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="☰"
+            android:textSize="18sp"
+            android:backgroundTint="@android:color/transparent"
+            android:textColor="#007ACC" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Manage Users"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/dashboardButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Dashboard"
+            android:backgroundTint="#007ACC"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+    <!-- Add User Button -->
+    <Button
+        android:id="@+id/addUserButton"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Add New User"
+        android:backgroundTint="#28a745"
+        android:textColor="@android:color/white"
+        android:layout_gravity="end"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Users List -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Loading Indicator -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+</LinearLayout>

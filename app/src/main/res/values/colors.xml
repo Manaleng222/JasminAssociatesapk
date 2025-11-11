@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary">#007ACC</color>
+    <color name="primary_dark">#005a9e</color>
+    <color name="primary_light">#4da6ff</color>
+
+    <!-- Secondary Colors -->
+    <color name="secondary">#6C757D</color>
+    <color name="secondary_dark">#545b62</color>
+    <color name="secondary_light">#868e96</color>
+
+    <!-- Success Colors -->
+    <color name="success">#28A745</color>
+    <color name="success_dark">#1e7e34</color>
+    <color name="success_light">#34ce57</color>
+
+    <!-- Danger Colors -->
+    <color name="danger">#DC3545</color>
+    <color name="danger_dark">#bd2130</color>
+    <color name="danger_light">#e4606d</color>
+
+    <!-- Warning Colors -->
+    <color name="warning">#FFC107</color>
+    <color name="warning_dark">#d39e00</color>
+    <color name="warning_light">#ffce3a</color>
+
+    <!-- Info Colors -->
+    <color name="info">#17A2B8</color>
+    <color name="info_dark">#138496</color>
+
+
+    <!-- Background Colors -->
+    <color name="background_light">#F8F9FA</color>
+    <color name="background_dark">#121212</color>
+    <color name="background_white">#FFFFFF</color>
+    <color name="background_black">#000000</color>
+    <color name="card_background">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#212529</color>
+    <color name="text_secondary">#6c757d</color>
+    <color name="text_light">#f8f9fa</color>
+    <color name="text_dark">#343a40</color>
+    <color name="text_muted">#868e96</color>
+
+    <!-- Border Colors -->
+    <color name="border_light">#E0E0E0</color>
+    <color name="border_dark">#495057</color>
+
+    <!-- Status Colors -->
+    <color name="status_active">#28a745</color>
+    <color name="status_inactive">#dc3545</color>
+    <color name="status_pending">#ffc107</color>
+    <color name="status_completed">#17a2b8</color>
+    <color name="status_cancelled">#6c757d</color>
+
+    <!-- Role Colors -->
+    <color name="role_admin">#dc3545</color>
+    <color name="role_project_manager">#007ACC</color>
+    <color name="role_security_personnel">#28a745</color>
+
+    <!-- Chart Colors -->
+    <color name="chart_1">#007ACC</color>
+    <color name="chart_2">#28a745</color>
+    <color name="chart_3">#ffc107</color>
+    <color name="chart_4">#dc3545</color>
+    <color name="chart_5">#6c757d</color>
+
+    <!-- Additional colors -->
+    <color name="green">#4CAF50</color>
+    <color name="orange">#FF9800</color>
+    <color name="blue">#2196F3</color>
+    <color name="red">#F44336</color>
+
+    <!-- Theme colors -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Light colors for backgrounds -->
+    <color name="light">#F8F9FA</color>
+    <color name="info_light">#E7F3FF</color>
+</resources>

@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="20dp"
+    tools:context=".ui.admin.AddEditEquipmentActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="20dp">
+
+            <Button
+                android:id="@+id/dashboardButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dashboard"
+                android:layout_marginEnd="10dp"
+                android:backgroundTint="#6c757d"
+                android:textColor="@android:color/white"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Add/Edit Equipment"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <!-- Equipment Form Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            app:cardBackgroundColor="@android:color/black"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <!-- Basic Information -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Basic Information"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#007ACC"
+                    android:layout_marginBottom="10dp"
+                    tools:ignore="HardcodedText" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:columnCount="2"
+                    android:rowCount="3"
+                    android:columnWidth="0dp"
+                    android:layout_marginBottom="15dp">
+
+                    <!-- Equipment Name -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:orientation="vertical"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Equipment Name *"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="5dp" />
+
+                        <EditText
+                            android:id="@+id/equipmentNameEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Enter equipment name"
+                            android:background="@drawable/edittext_background"
+                            android:padding="8dp" />
+
+                    </LinearLayout>
+
+                    <!-- Equipment Type -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:orientation="vertical"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Equipment Type *"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="5dp" />
+
+                        <Spinner
+                            android:id="@+id/equipmentTypeSpinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_background"
+                            android:minHeight="48dp" />
+
+                    </LinearLayout>
+
+                    <!-- Serial Number -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:orientation="vertical"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Serial Number"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="5dp" />
+
+                        <EditText
+                            android:id="@+id/serialNumberEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Enter serial number"
+                            android:background="@drawable/edittext_background"
+                            android:padding="8dp" />
+
+                    </LinearLayout>
+
+                    <!-- Status -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:orientation="vertical"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Status *"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="5dp" />
+
+                        <Spinner
+                            android:id="@+id/statusSpinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_background"
+                            android:minHeight="48dp" />
+
+                    </LinearLayout>
+
+                    <!-- Location -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:orientation="vertical"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Location"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="5dp" />
+
+                        <EditText
+                            android:id="@+id/locationEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_background"
+                            android:hint="Enter location"
+                            android:minHeight="48dp"
+                            android:padding="8dp" />
+
+                    </LinearLayout>
+
+                </GridLayout>
+
+                <!-- Description -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="15dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Description"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="5dp" />
+
+                    <EditText
+                        android:id="@+id/descriptionEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:gravity="top"
+                        android:hint="Enter equipment description"
+                        android:background="@drawable/edittext_background"
+                        android:padding="8dp" />
+
+                </LinearLayout>
+
+                <!-- Financial Information -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Financial Information"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#007ACC"
+                    android:layout_marginBottom="10dp" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:columnCount="2"
+                    android:rowCount="2"
+                    android:columnWidth="0dp"
+                    android:layout_marginBottom="15dp">
+
+                    <!-- Purchase Date -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:orientation="vertical"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Purchase Date"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="5dp" />
+
+                        <DatePicker
+                            android:id="@+id/purchaseDatePicker"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                    <!-- Purchase Cost -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:orientation="vertical"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Purchase Cost ($)"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="5dp" />
+
+                        <EditText
+                            android:id="@+id/purchaseCostEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_background"
+                            android:hint="0.00"
+                            android:inputType="numberDecimal"
+                            android:minHeight="48dp"
+                            android:padding="8dp" />
+
+                    </LinearLayout>
+
+                    <!-- Current Value -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:orientation="vertical"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Current Value ($)"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="5dp" />
+
+                        <EditText
+                            android:id="@+id/currentValueEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="0.00"
+                            android:inputType="numberDecimal"
+                            android:background="@drawable/edittext_background"
+                            android:padding="8dp" />
+
+                    </LinearLayout>
+
+                    <!-- Hourly Rental Rate -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:orientation="vertical"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Hourly Rental Rate ($)"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="5dp" />
+
+                        <EditText
+                            android:id="@+id/hourlyRentalRateEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="0.00"
+                            android:inputType="numberDecimal"
+                            android:background="@drawable/edittext_background"
+                            android:padding="8dp" />
+
+                    </LinearLayout>
+
+                </GridLayout>
+
+                <!-- Maintenance Information -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Maintenance Information"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#007ACC"
+                    android:layout_marginBottom="10dp" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:columnCount="2"
+                    android:rowCount="2"
+                    android:columnWidth="0dp">
+
+                    <!-- Maintenance Interval -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:orientation="vertical"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Maintenance Interval (days)"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="5dp" />
+
+                        <EditText
+                            android:id="@+id/maintenanceIntervalEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="30"
+                            android:inputType="number"
+                            android:background="@drawable/edittext_background"
+                            android:padding="8dp" />
+
+                    </LinearLayout>
+
+                    <!-- Last Maintenance Date -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:orientation="vertical"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Last Maintenance Date"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="5dp" />
+
+                        <DatePicker
+                            android:id="@+id/lastMaintenanceDatePicker"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                    <!-- Next Maintenance Date -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:orientation="vertical"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Next Maintenance Date"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="5dp" />
+
+                        <DatePicker
+                            android:id="@+id/nextMaintenanceDatePicker"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                </GridLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Action Buttons -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="1"
+            android:columnWidth="0dp">
+
+            <Button
+                android:id="@+id/cancelButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:text="Cancel"
+                android:backgroundTint="#6c757d"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/saveButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:text="Save Equipment"
+                android:backgroundTint="#28a745"
+                android:textColor="@android:color/white" />
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>
