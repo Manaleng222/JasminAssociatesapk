@@ -59,7 +59,7 @@ Only authorized staff — **Admin**, **Project Manager**, and **Security Guards*
 ### 🕒 **Shift Timetable Management**
 
 * Guards can view their assigned shifts
-* Project Managers can update timetables
+* Admin can update timetables
 * Admin can manage all shift allocations
 * Clear communication between management & guards
 
@@ -68,8 +68,8 @@ Only authorized staff — **Admin**, **Project Manager**, and **Security Guards*
 Different interfaces for different roles:
 
 * **Admin:** Full control over users, equipment, and schedules
-* **Project Manager:** Project & equipment workflow
-* **Security Guard:** Shift viewer, equipment requests
+* **Project Manager:** Project & equipment workflow, equipment requests
+* **Security Guard:** Shift viewer, hourly rate
 
 ---
 
@@ -88,11 +88,11 @@ Different interfaces for different roles:
 * Track workforce usage
 * Approve and assign equipment
 * Oversee site shift schedules
-
+* Request equipment
 ### **Security Guard**
 
 * View upcoming shifts
-* Request equipment
+* See hourly
 * Receive schedule updates
 
 ---
@@ -100,11 +100,11 @@ Different interfaces for different roles:
 ## 🧰 **Technologies Used**
 
 * **Android Studio (Kotlin)**
-* **Room Database** / LocalDB
+* **Supabase Database** 
 * **XML UI (Material Design)**
 * **Jetpack Components (LiveData, ViewModel, RecyclerView)**
 * **Gradle Build System**
-* **MVVM Architecture** *(if implemented)*
+* **MVVM Architecture** 
 
 ---
 
