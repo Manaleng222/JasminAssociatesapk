@@ -124,16 +124,11 @@ Different interfaces for different roles:
 ## 📷 **Screenshots**
 
 | ## 📸 Application Screenshots
+## 📱 Real Device Mockups
 
-| Login Screen              | Admin Dashboard                   | Guard Timetable              |
-|---------------------------|-----------------------------------|------------------------------|
-
-
-<p align="center">
-    <img src="https://github.com/user-attachments/assets/d7509750-588c-44f7-bdd6-3efb3906c718" width="260" style="border-radius:18px; margin:10px; box-shadow:0 4px 12px rgba(0,0,0,0.4);" />
-  <img src="https://github.com/user-attachments/assets/8f72beb2-4dd0-478b-85d6-55c10361ff30" width="260" style="border-radius:18px; margin:10px; box-shadow:0 4px 12px rgba(0,0,0,0.4);" />
-  <img src="https://github.com/user-attachments/assets/90b28a42-12e4-4b57-9138-0f0e80c8ba38" width="260" style="border-radius:18px; margin:10px; box-shadow:0 4px 12px rgba(0,0,0,0.4);" />
-</p>
+| Login Screen (Pixel / iPhone / Samsung) | Admin Dashboard (Pixel / iPhone / Samsung) | Guard Timetable (Pixel / iPhone / Samsung) |
+|-----------------------------------------|--------------------------------------------|--------------------------------------------|
+| <p align="center"> <img src="https://github.com/user-attachments/assets/8f72beb2-4dd0-478b-85d6-55c10361ff30" width="220" style="border:8px solid #000; border-radius:30px;"/> <br>Pixel </p> <p align="center"> <img src="https://github.com/user-attachments/assets/8f72beb2-4dd0-478b-85d6-55c10361ff30" width="220" style="border:12px solid #ccc; border-radius:45px;"/> <br>iPhone </p> <p align="center"> <img src="https://github.com/user-attachments/assets/8f72beb2-4dd0-478b-85d6-55c10361ff30" width="220" style="border:10px solid #111; border-radius:25px;"/> <br>Samsung </p> | <p align="center"> <img src="https://github.com/user-attachments/assets/d7509750-588c-44f7-bdd6-3efb3906c718" width="220" style="border:8px solid #000; border-radius:30px;"/> <br>Pixel </p> <p align="center"> <img src="https://github.com/user-attachments/assets/d7509750-588c-44f7-bdd6-3efb3906c718" width="220" style="border:12px solid #ccc; border-radius:45px;"/> <br>iPhone </p> <p align="center"> <img src="https://github.com/user-attachments/assets/d7509750-588c-44f7-bdd6-3efb3906c718" width="220" style="border:10px solid #111; border-radius:25px;"/> <br>Samsung </p> | <p align="center"> <img src="https://github.com/user-attachments/assets/90b28a42-12e4-4b57-9138-0f0e80c8ba38" width="220" style="border:8px solid #000; border-radius:30px;"/> <br>Pixel </p> <p align="center"> <img src="https://github.com/user-attachments/assets/90b28a42-12e4-4b57-9138-0f0e80c8ba38" width="220" style="border:12px solid #ccc; border-radius:45px;"/> <br>iPhone </p> <p align="center"> <img src="https://github.com/user-attachments/assets/90b28a42-12e4-4b57-9138-0f0e80c8ba38" width="220" style="border:10px solid #111; border-radius:25px;"/> <br>Samsung </p> |
 
 
 
