@@ -148,11 +148,4 @@ Unauthorized copying, sharing, or modification is **strictly prohibited**.
 
 ---
 
-If you want, I can also:
 
-✅ Add a **project banner**
-✅ Add **GIF animations** of the app
-✅ Add **badges** (Build Passing, Kotlin version, etc.)
-✅ Create a **professional logo** for the company
-
-Just tell me and I’ll include it!
