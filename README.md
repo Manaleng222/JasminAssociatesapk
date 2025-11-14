@@ -125,10 +125,12 @@ Different interfaces for different roles:
 
 > *(Add PNG/JPG files in a folder named `/screenshots/` inside the project, then link them below.)*
 
-| Login Screen                    | Admin Dashboard                 | Guard Timetable                         |
-| ------------------------------- | ------------------------------- | --------------------------------------- |
-| !<img width="321" height="565" alt="image" src="https://github.com/user-attachments/assets/d7509750-588c-44f7-bdd6-3efb3906c718" />
- | !<img width="336" height="607" alt="image" src="https://github.com/user-attachments/assets/8f72beb2-4dd0-478b-85d6-55c10361ff30" />
+| Login Screen                                     | Admin Dashboard                 | Guard Timetable                         |
+| -------------------------------                   | ------------------------------- | --------------------------------------- |
+| !<img width="321" height="565" alt="image"          | !<img width="336" height="607" alt="image" src="https://github.com/user-attachments/assets/8f72beb2-4dd0-478b-85d6-55c10361ff30" />
+src="https://github.com/user-attachments/asset
+/d7509750-588c-44f7-bdd6-3efb3906c718" />
+ 
 ) | ![Timetable](screenshots/timetable.png) |
 
 ---
