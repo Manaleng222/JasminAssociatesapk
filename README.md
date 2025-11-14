@@ -127,7 +127,8 @@ Different interfaces for different roles:
 
 | Login Screen                    | Admin Dashboard                 | Guard Timetable                         |
 | ------------------------------- | ------------------------------- | --------------------------------------- |
-| ![Login](screenshots/login.png) | ![Admin](screenshots/admin.png) | ![Timetable](screenshots/timetable.png) |
+| ![Login](screenshots/login.png) | ![Admin](screenshots/<img width="336" height="607" alt="image" src="https://github.com/user-attachments/assets/8f72beb2-4dd0-478b-85d6-55c10361ff30" />
+) | ![Timetable](screenshots/timetable.png) |
 
 ---
 
