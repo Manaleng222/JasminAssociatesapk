@@ -17,11 +17,7 @@ import kotlinx.coroutines.withContext
 
 class SupabaseRepository {
     private val client: SupabaseClient = createSupabaseClient(
-        supabaseUrl = "https://wtwgudfugmvupfmtycfq.supabase.co"
-        ,
-        supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Ind0d2d1ZGZ1Z212dXBmbXR5Y2ZxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI3MDA3NjYsImV4cCI6MjA3ODI3Njc2Nn0.wyPPgzOOG6jYXGt8kWzrm4Kcx8LX9xAIv4ncB37XvdQ"){
-        install(Postgrest)
-    }
+       
 
     // User Operations
     suspend fun insertUser(user: User): ApiResult<User> = withContext(Dispatchers.IO) {
